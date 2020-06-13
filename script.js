@@ -42,7 +42,8 @@ function outResponse(results) {
     for (var i = 0; i < retrieve; i++) {
         var contain = $('<div>')
         .css({
-            "border-width": "1px",
+            "background-color": "white",
+            "border-width": "3px",
             "border-style": "solid",
             "border-color": "lightgrey",
             "overflow": "auto",
