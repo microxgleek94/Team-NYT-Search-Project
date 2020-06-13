@@ -13,8 +13,10 @@
 }
 
 #searchPara {
-    background-color: gray; 
+    background-color: rgb(243, 239, 239); 
     border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 50px;
 }
 
 #inputStyle {
