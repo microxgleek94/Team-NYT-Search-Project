@@ -12,19 +12,42 @@
     color: white;
 }
 
+#jumboStyle {
+    background-color: transparent;
+}
 #searchPara {
     background-color: rgb(243, 239, 239); 
     border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 50px;
-}
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    max-width: 100%;
+    margin-bottom: 30px;
+    font-size: 25px;
 
+}
 #inputStyle {
     margin-left: 20px;
     margin-right: 20px;
     background-color: white;
     border-radius: 5px;
     border: black solid 1px;
+}
+
+ #top-articles {
+     font-size: 25px;
+        /* margin-right: 10px;*/
+        /* margin-left: 10px; */
+    background-color: silver;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: black solid 1px;
+}
+#articleContainer {
+    background-color: white;
+
 }
 
 #footer {
