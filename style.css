@@ -1,4 +1,31 @@
-h1,
-footer {
+#header {
+    border-top: 10%;
+    background-color: #20315A;
+    border-radius: 5px;
+    height: 200px;
     text-align: center;
+}
+
+.jumbotron h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: white;
+}
+
+#searchPara {
+    background-color: gray; 
+    border-radius: 5px;
+}
+
+#inputStyle {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: black solid 1px;
+}
+
+#footer {
+    text-align: center;
+
 }
