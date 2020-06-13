@@ -45,7 +45,8 @@ function outResponse(results) {
             "border-width": "1px",
             "border-style": "solid",
             "border-color": "lightgrey",
-            "height":"150px",
+            "overflow": "auto",
+            "font-size": "20px"
         });
         var headline = $("<div>").text(results.response.docs[i].headline.main);
         var author = $("<div>").text(results.response.docs[i].byline.original);
