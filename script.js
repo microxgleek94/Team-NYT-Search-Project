@@ -1,4 +1,3 @@
-// API Call by keyword
 //https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=pAzVsQiL7Ld1Uxrjdfrvx0QUBBhOF5zG
 var kword;
 var APIkey = "pAzVsQiL7Ld1Uxrjdfrvx0QUBBhOF5zG";
@@ -24,7 +23,11 @@ function getRecords(kword) {
     } else if (startYear){
         console.log('The value for startYear =' ,startYear);
         aURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + kword + "&api-key=" + APIkey + "&begin_date=" + startYear + "0101";
-    } else {
+    } else if (endYear) {
+        console.log('The value for EndYear =' ,endYear);
+        aURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + kword + "&api-key=" + APIkey + "&end_date=" + endYear + "0101";
+    }
+      else {
         aURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + kword + "&api-key=" + APIkey;
     };
     console.log('aURL = ', aURL);
@@ -34,7 +37,7 @@ function getRecords(kword) {
         method: "GET"
     }).then(outResponse);
 }
-function outResponse(results) {  
+function outResponse(results) {
     var retrieve = $("#numRec").val();
     for (var i = 0; i < retrieve; i++) {
         var contain = $('<div>')
@@ -54,7 +57,6 @@ function outResponse(results) {
         contain.appendTo("#topArticles");
     }
 }
-
 $("#clearBtn").on("click", function (){
     $("#topArticles").empty();
     $("#search-term").val('');

@@ -14,6 +14,7 @@
 
 #jumboStyle {
     background-color: transparent;
+
 }
 #searchPara {
     background-color: rgb(243, 239, 239); 
@@ -32,13 +33,19 @@
     background-color: white;
     border-radius: 5px;
     border: black solid 1px;
+    padding-bottom: 10px;
 }
 
- #top-articles {
-     font-size: 25px;
-        /* margin-right: 10px;*/
-        /* margin-left: 10px; */
-    background-color: silver;
+#btnContainer{
+    padding-top: 10px;
+}
+
+#topArticles {
+    max-width: 100%;
+    font-size: 25px;
+    margin: 30px;
+    padding: 10px;
+    background-color: rgb(243, 239, 239);;
     border-radius: 5px;
     margin-left: 20px;
     margin-right: 20px;
@@ -51,6 +58,10 @@
 }
 
 #footer {
+    border-radius: 5px;
+    border-radius: 5px;
+    border: black solid 1px;
     text-align: center;
+    max-width: 100%;
 
 }
