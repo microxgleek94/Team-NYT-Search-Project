@@ -1,3 +1,5 @@
+
+
 #header {
     border-top: 10%;
     background-color: #20315A;
@@ -14,6 +16,7 @@
 
 #jumboStyle {
     background-color: transparent;
+    padding: 4px;
 
 }
 #searchPara {
@@ -38,6 +41,7 @@
 
 #btnContainer{
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #topArticles {
