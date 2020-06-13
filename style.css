@@ -1,5 +1,3 @@
-
-
 #header {
     border-top: 10%;
     background-color: #20315A;
@@ -12,6 +10,12 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     color: white;
+}
+
+p {
+    color: white; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
 }
 
 #jumboStyle {
